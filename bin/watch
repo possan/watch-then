@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+'use strict';
+
+process.title = 'watch-then';
+
+var Executor = require('../lib/Executor').Executor;
+var ArgParser = require('../lib/ArgParser').ArgParser;
+var App = require('../lib/App').App;
+
+var args = process.argv.slice(2);
+var config = ArgParser.parseAndValidate(args);
+
+(new App()).run(config, new Executor(config));

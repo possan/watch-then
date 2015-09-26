@@ -1,0 +1,26 @@
+{
+  "name": "watch-then",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "bin": {
+    "watch": "bin/watch"
+  },
+  "repository": "https://github.com/possan/watch-then",
+  "preferGlobal": true,
+  "author": "Per-Olov Jernberg <possan@possan.se>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.1.0",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
