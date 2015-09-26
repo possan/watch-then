@@ -1,5 +1,4 @@
-watch-then
-==========
+# Watch ... Then ...
 
 I often need a simple file watcher that just checks for changes in a file then executes something and preferrably without having to write a complicated g(ulp|runt)file for the task, so i created this thing, just install it with NPM:
 
@@ -16,8 +15,7 @@ watch filemask {more filemasks ...} then "command" {more commands to run...}
 
 
 
-Examples
-========
+## Examples
 
 Watching for source file changes, then running make then executing the application:
 
