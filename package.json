@@ -1,6 +1,6 @@
 {
   "name": "watch-then-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "files": [
     "bin",
@@ -15,7 +15,7 @@
   "homepage": "https://github.com/possan/watch-then",
   "repository": {
     "type": "git",
-    "git": "git://github.com/possan/watch-then.git"
+    "url": "git://github.com/possan/watch-then.git"
   },
   "preferGlobal": true,
   "author": {
