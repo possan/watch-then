@@ -4,7 +4,7 @@ watch-then
 I often need a simple file watcher that just checks for changes in a file then executes something and preferrably without having to write a complicated g(ulp|runt)file for the task, so i created this thing, just install it with NPM:
 
 ```
-npm install -g watch-then
+npm install -g watch-then-cli
 ```
 
 Then use it to watch for changes.
